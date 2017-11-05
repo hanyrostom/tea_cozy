@@ -19,6 +19,7 @@ header {
   align-items:center;
   border-bottom: 1px solid seashell;
   padding: 9.5px 10px;
+
   top: -2px;
   height: 69px;
 }
@@ -29,6 +30,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+/* I'm having trouble with displaying
+all of the navigation links on the top left corner of the page..
+I am not sure what am I missing?*/
 
 .content{
  position: relative;
@@ -110,11 +114,12 @@ justify-content: space-around;
 .bottom{
   position: relative;
   top: 69px;
+  height: 200px;
 }
 
 footer{
   text-align: left;
   position: relative;
-  top: 69px;
-  left: 10px;
+  top: 200px;
+  left: 20px;
 }
