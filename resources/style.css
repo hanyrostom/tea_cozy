@@ -1,7 +1,6 @@
 
 body {
   font-family: helvetica;
-
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
@@ -19,20 +18,24 @@ header {
   align-items:center;
   border-bottom: 1px solid seashell;
   padding: 9.5px 10px;
-
   top: -2px;
   height: 69px;
 }
 
-.links{
- width: 400px;
-  text-decoration: underline;
-  display: flex;
-  justify-content: space-between;
+nav {
+    display: flex;
+    width: 400px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
 }
+
 /* I'm having trouble with displaying
 all of the navigation links on the top left corner of the page..
 I am not sure what am I missing?*/
+
+/*update: I figured it out. */
 
 .content{
  position: relative;
@@ -51,8 +54,8 @@ margin:0 auto;
   height: 700px;
   margin:0px auto;
 }
-#mission{
 
+#mission{
   background-color: black;
   width: 100%;
 }
@@ -94,10 +97,7 @@ padding-top; 10px;
 }
 .addresses {
 display: flex;
-
 justify-content: space-around;
-
-
 }
 .blkcontainer {
   display: flex;
@@ -108,9 +108,7 @@ justify-content: space-around;
   margin: 15px 20px 15px 20px;
   opacity: 1; !important
 }
-.blkcontainer span{
 
-}
 .bottom{
   position: relative;
   top: 69px;
